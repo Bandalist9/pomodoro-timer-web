@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pomodoro Timer</title>
+  <link rel="stylesheet" href="index.css" />
+</head>
+<body>
+  <main class="timer-card">
+    <h1>Pomodoro</h1>
+
+    <p class="time-display" id="time-display">25:00</p>
+
+    <div class="controls">
+      <button type="button" class="btn btn-start" onclick="startTimer()">시작</button>
+      <button type="button" class="btn btn-stop" onclick="stopTimer()">정지</button>
+      <button type="button" class="btn btn-reset" onclick="resetTimer()">초기화</button>
+    </div>
+
+    <a href="setting.html" class="btn-settings" aria-label="설정">⚙ 설정</a>
+  </main>
+
+  <script src="index.js"></script>
+</body>
+</html>

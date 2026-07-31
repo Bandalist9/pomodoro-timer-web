@@ -1,0 +1,93 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #2f2b3a;
+  font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+  color: #f5f3f7;
+}
+
+.timer-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  padding: 48px 56px;
+  background-color: #3d3750;
+  border-radius: 24px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+  font-size: 2rem;
+  letter-spacing: 0.05em;
+  color: #ff6b6b;
+}
+
+.time-display {
+  font-size: 4.5rem;
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+  letter-spacing: 0.05em;
+}
+
+.controls {
+  display: flex;
+  gap: 12px;
+}
+
+.btn {
+  padding: 12px 24px;
+  font-size: 1rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  color: #ffffff;
+  transition: transform 0.15s ease, opacity 0.15s ease;
+}
+
+.btn:hover {
+  transform: translateY(-2px);
+  opacity: 0.9;
+}
+
+.btn:active {
+  transform: translateY(0);
+}
+
+.btn-start {
+  background-color: #ff6b6b;
+}
+
+.btn-stop {
+  background-color: #6c7ae0;
+}
+
+.btn-reset {
+  background-color: #4a4560;
+}
+
+.btn-settings {
+  padding: 10px 20px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: #cfc9dc;
+  background-color: transparent;
+  border: 1px solid #5b5470;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: background-color 0.15s ease, color 0.15s ease;
+}
+
+.btn-settings:hover {
+  background-color: #4a4560;
+  color: #ffffff;
+}
