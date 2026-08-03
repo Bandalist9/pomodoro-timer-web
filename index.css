@@ -31,6 +31,14 @@ h1 {
   color: #ff6b6b;
 }
 
+.current-time {
+  font-size: 1rem;
+  font-weight: 500;
+  font-variant-numeric: tabular-nums;
+  letter-spacing: 0.05em;
+  color: #cfc9dc;
+}
+
 .time-display {
   font-size: 4.5rem;
   font-weight: 700;
